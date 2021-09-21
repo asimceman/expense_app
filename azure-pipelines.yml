@@ -9,8 +9,6 @@ trigger:
 pool:
   vmImage: 'macos-latest'
 
-strategy:
-    maxParallel: 0
 
 steps:
 - task: Xcode@5
